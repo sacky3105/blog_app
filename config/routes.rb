@@ -11,6 +11,9 @@ Rails.application.routes.draw do
     omniauth_callbacks: 'users/omniauth_callbacks'
   }
 
+  # Resources for articles
+  resources :articles
+
   # Defines the root path route ("/")
   root 'home#index'
 end

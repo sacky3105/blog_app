@@ -21,3 +21,5 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
       POSTGRES_HOST: db
+    env_file:
+      - .env
